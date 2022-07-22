@@ -1,0 +1,19 @@
+1999 GJ2 Orbit Determination
+----------------------------------------------
+Position From Sun (r, AU):
+	[ 0.14378188 -1.31847293  0.26087179]
+Velocity (AU/day):
+	[1.50824062e-02 4.18873513e-03 4.29888726e-05]
+Position From Earth (rho, AU):
+	[-0.19588349 -0.3603189   0.26081852]
+----------------------------------------------
+Orbital Elements:
+	Semi-Major Axis (AU): 1.5347335844052366
+	Eccentricity: 0.19705335529721238
+	Inclination (deg): 11.297804647358708
+	Longitude of Ascending Node (deg): 196.30886625285262
+	Time of Perihelion Passage (Julian days): 2459162.648031663
+	Argument of Perihelion (deg): 142.49765048391222
+----------------------------------------------
+Mean Anomaly (deg) for July 24, 2022 7:00 UT:
+	322.51152657075056
