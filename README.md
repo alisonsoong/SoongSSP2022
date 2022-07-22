@@ -3,9 +3,13 @@ Orbital Determination Code, SSP 2022
 --------------------------------------------------------------------------------------------
 
 Name: Alison Soong
+
 Date: July 21, 2022
+
 Asteroid: 1999 GJ2
+
 Team: Team 01 - Glacier
+
 Teammates: Tyler Chen, Anoushka Chitnis, Sam Kleiman
 
 --------------------------------------------------------------------------------------------
