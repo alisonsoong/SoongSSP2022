@@ -16,6 +16,10 @@ Teammates: Tyler Chen, Anoushka Chitnis, Sam Kleiman
 API
 --------------------------------------------------------------------------------------------
 
+[Click here to view the documentation](https://alisonsoong.github.io/SoongSSP2022/) (https://alisonsoong.github.io/SoongSSP2022/)
+
+OR
+
 View the API for the OD code using pdoc
 
 Instructions:
