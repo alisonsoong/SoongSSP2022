@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
+<!-- saved from url=(0028)http://localhost:8081/odlib/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 <meta name="generator" content="pdoc 0.10.0">
 <title>odlib API documentation</title>
 <meta name="description" content="">
-<link rel="preload stylesheet" as="style" href="odlib%20API%20documentation_files/sanitize.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin="">
-<link rel="preload stylesheet" as="style" href="odlib%20API%20documentation_files/typography.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin="">
-<link rel="stylesheet preload" as="style" href="odlib%20API%20documentation_files/github.css" crossorigin="">
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin="">
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin="">
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin="">
 <style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
 <style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
 <style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
-<script defer="defer" src="odlib%20API%20documentation_files/highlight.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin=""></script>
+<script defer="" src="./index_files/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin=""></script>
 <script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
 </head>
-<body>
+<body data-new-gr-c-s-check-loaded="14.1072.0" data-gr-ext-installed="">
 <main>
 <article id="content">
 <header>
 <nav class="http-server-breadcrumbs">
-<a href="http://alisonsoong.github.io/SoongSSP2022/">All packages</a>
+<a href="http://localhost:8081/">All packages</a>
 </nav>
 <h1 class="title">Module <code>odlib</code></h1>
 </header>
@@ -620,18 +620,37 @@
   
         <span class="hljs-keyword">return</span> results
 
-    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">exportEphemeris</span>(<span class="hljs-params">self, fileName:str, results:list</span>):</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">exportEphemeris</span>(<span class="hljs-params">self, fileName:str, results:list, actualEph:str</span>):</span>
         <span class="hljs-string">""" Exports ephemeris to a file
             Args:
                 fileName (str): file name for exported ephemeris
                 results (list): all results
+                actualEph (str): file path for actual ephemeris from JPL horizons
             Returns:
                 None
         """</span>
+        actualRA,actualDec=[],[]
+        <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span>(actualEph==<span class="hljs-string">""</span>):
+            data=np.loadtxt(actualEph,dtype=str,delimiter=<span class="hljs-string">","</span>)[<span class="hljs-number">1</span>:,<span class="hljs-number">3</span>:]
+            <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(len(data)):
+                ra=data[i][<span class="hljs-number">0</span>].split()
+                dec=data[i][<span class="hljs-number">1</span>].split()
+                actualRA.append(HMStoDeg(float(ra[<span class="hljs-number">0</span>]),float(ra[<span class="hljs-number">1</span>]),float(ra[<span class="hljs-number">2</span>])))
+                actualDec.append(DMStoDeg(float(dec[<span class="hljs-number">0</span>]),float(dec[<span class="hljs-number">1</span>]),float(dec[<span class="hljs-number">2</span>])))
         <span class="hljs-keyword">with</span> open(fileName, <span class="hljs-string">'w'</span>) <span class="hljs-keyword">as</span> file:
-            file.write((<span class="hljs-string">"Date\tTime\tRA\tDec\n"</span>).expandtabs(<span class="hljs-number">40</span>))
+            file.write((<span class="hljs-string">"Date\tTime\tRA\tDec\tRA error\tDec error\n"</span>).expandtabs(<span class="hljs-number">35</span>))
+            counter=<span class="hljs-number">0</span>
             <span class="hljs-keyword">for</span> date, time, ra, dec <span class="hljs-keyword">in</span> results:
-                file.write((date+<span class="hljs-string">"\t"</span>+time+<span class="hljs-string">"\t"</span>+ra+<span class="hljs-string">"\t"</span>+dec+<span class="hljs-string">"\n"</span>).expandtabs(<span class="hljs-number">40</span>))
+                err=<span class="hljs-string">""</span>
+                <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> (actualEph==<span class="hljs-string">""</span>):
+                    cra=ra.split()
+                    cdec=dec.split()
+                    err=<span class="hljs-string">"\t"</span>
+                    err+=str(error(actualRA[counter],HMStoDeg(float(cra[<span class="hljs-number">0</span>]),float(cra[<span class="hljs-number">1</span>]),float(cra[<span class="hljs-number">2</span>]))))
+                    err+=<span class="hljs-string">"\t"</span>
+                    err+=str(error(actualDec[counter],DMStoDeg(float(cdec[<span class="hljs-number">0</span>]),float(cdec[<span class="hljs-number">1</span>]),float(cdec[<span class="hljs-number">2</span>]))))
+                file.write((date+<span class="hljs-string">"\t"</span>+time+<span class="hljs-string">"\t"</span>+ra+<span class="hljs-string">"\t"</span>+dec+err+<span class="hljs-string">"\n"</span>).expandtabs(<span class="hljs-number">35</span>))
+                counter+=<span class="hljs-number">1</span>
                 
     <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">exportMonteCarlo</span>(<span class="hljs-params">self, fileName:str, vals:list, results</span>):</span>
         <span class="hljs-string">""" Exports Monte Carlo to a file
@@ -1140,11 +1159,12 @@
         M=self.od.getTimeMeanAnomaly(time, date)
         self.data.printResults(fileName, self.pos, self.vel/self.toGaussian*(<span class="hljs-number">2</span>*math.pi), self.rho, self.a, self.e, self.i, self.o, self.T, self.w, date, M)
         
-    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">genEphemeris</span>(<span class="hljs-params">self, inputFile:str, outputFile:str</span>):</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">genEphemeris</span>(<span class="hljs-params">self, inputFile:str, outputFile:str, actualEph:str</span>):</span>
         <span class="hljs-string">""" Generates ephemeris for all times in a given sun position file. Exports to an output file
             Args:
                 inputFile (str): input file name
                 outputFile (str): output file name
+                actualEph (str): file with real values from JPL horizons
             Returns:
                 None
         """</span>
@@ -1157,7 +1177,7 @@
             dec=sign+str(dec[<span class="hljs-number">0</span>]) + <span class="hljs-string">" "</span> + str(dec[<span class="hljs-number">1</span>]) + <span class="hljs-string">" "</span> + str(dec[<span class="hljs-number">2</span>])
             results.append([date,str(time),ra,dec])
         
-        self.data.exportEphemeris(outputFile, results)
+        self.data.exportEphemeris(outputFile, results, actualEph)
         
     <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">monteCarlo</span>(<span class="hljs-params">self, n:int, files:str, outputFile:str, results:list, selTime:list=[], selDate:list=[]</span>):</span>
         <span class="hljs-string">""" Using uncertainty, runs through Method of Gauss n-times to generate orbital elements. 
@@ -1247,7 +1267,7 @@
 
  
 <span class="hljs-comment"># final functions</span>
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">RunCompleteOD</span>(<span class="hljs-params">iterations:int, inputFile:str, fitsFiles:list, sunFile:str, dates:list, results:list</span>):</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">RunCompleteOD</span>(<span class="hljs-params">iterations:int, inputFile:str, fitsFiles:list, sunFile:str, dates:list, results:list, actualEph:str</span>):</span>
     <span class="hljs-string">""" Runs complete orbit determination code. Generates three files:
             SoongODResults.txt (the results of orbital determination),
             SoongMonteCarloOutput.txt (the results from the Monte Carlo simulation),
@@ -1259,6 +1279,7 @@
             sunFile (str): path for file containing times and sun positions for ephemeris generation
             dates (list): list of dates for orbital elements determination
             results (list): the actual values for orbital elements in the format [a,e,i,o,w,m,T] 
+            actualEph (str): the file path for the actual ephemeris from JPL Horizons
         Returns:
             None
     """</span>
@@ -1280,17 +1301,18 @@
     od.monteCarlo(iterations, fitsFiles, <span class="hljs-string">"SoongMonteCarloOutput.txt"</span>, results, selDate=dates)
     
     <span class="hljs-comment"># generate the ephemeris</span>
-    od.genEphemeris(sunFile, <span class="hljs-string">"SoongGeneratedEphemeris.txt"</span>)
+    od.genEphemeris(sunFile, <span class="hljs-string">"SoongGeneratedEphemeris.txt"</span>, actualEph)
     print(<span class="hljs-string">"--- Ephemeris generation completed ---"</span>)
 
     
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">GenerateEphemeris</span>(<span class="hljs-params">inputFile:str, ODdates:list, sunFile:str</span>):</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">GenerateEphemeris</span>(<span class="hljs-params">inputFile:str, ODdates:list, sunFile:str, actualEph:str</span>):</span>
     <span class="hljs-string">""" Outputs ephemeris to file. Generates one file:
             GeneratedEphemeris.txt (the results of ephemeris generation)
         Args:
             inputFile (str): path for file containing observations to determine orbital elements
             ODdates (list): list of dates for orbital elements determination
             sunFile (str): path for file containing times and sun positions for ephemeris generation
+            actualEph (str): path for file containing real ephemeris results from JPL Horizons
         Returns:
             None
     """</span>
@@ -1301,7 +1323,7 @@
     od.MoG(selDate=ODdates)
     
     <span class="hljs-comment"># generate ephemeris</span>
-    od.genEphemeris(sunFile, <span class="hljs-string">"GeneratedEphemeris.txt"</span>)
+    od.genEphemeris(sunFile, <span class="hljs-string">"GeneratedEphemeris.txt"</span>, actualEph)
     
     print(<span class="hljs-string">"Finished generating ephemeris"</span>)</code></pre>
 </details>
@@ -1386,7 +1408,7 @@
 </details>
 </dd>
 <dt id="odlib.GenerateEphemeris"><code class="name flex">
-<span>def <span class="ident">GenerateEphemeris</span></span>(<span>inputFile:&nbsp;str, ODdates:&nbsp;list, sunFile:&nbsp;str)</span>
+<span>def <span class="ident">GenerateEphemeris</span></span>(<span>inputFile:&nbsp;str, ODdates:&nbsp;list, sunFile:&nbsp;str, actualEph:&nbsp;str)</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Outputs ephemeris to file. Generates one file:
@@ -1399,6 +1421,8 @@ GeneratedEphemeris.txt (the results of ephemeris generation)</p>
 <dd>list of dates for orbital elements determination</dd>
 <dt><strong><code>sunFile</code></strong> : <code>str</code></dt>
 <dd>path for file containing times and sun positions for ephemeris generation</dd>
+<dt><strong><code>actualEph</code></strong> : <code>str</code></dt>
+<dd>path for file containing real ephemeris results from JPL Horizons</dd>
 </dl>
 <h2 id="returns">Returns</h2>
 <p>None</p></div>
@@ -1406,13 +1430,14 @@ GeneratedEphemeris.txt (the results of ephemeris generation)</p>
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">GenerateEphemeris</span>(<span class="hljs-params">inputFile:str, ODdates:list, sunFile:str</span>):</span>
+<pre><code class="python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">GenerateEphemeris</span>(<span class="hljs-params">inputFile:str, ODdates:list, sunFile:str, actualEph:str</span>):</span>
     <span class="hljs-string">""" Outputs ephemeris to file. Generates one file:
             GeneratedEphemeris.txt (the results of ephemeris generation)
         Args:
             inputFile (str): path for file containing observations to determine orbital elements
             ODdates (list): list of dates for orbital elements determination
             sunFile (str): path for file containing times and sun positions for ephemeris generation
+            actualEph (str): path for file containing real ephemeris results from JPL Horizons
         Returns:
             None
     """</span>
@@ -1423,7 +1448,7 @@ GeneratedEphemeris.txt (the results of ephemeris generation)</p>
     od.MoG(selDate=ODdates)
     
     <span class="hljs-comment"># generate ephemeris</span>
-    od.genEphemeris(sunFile, <span class="hljs-string">"GeneratedEphemeris.txt"</span>)
+    od.genEphemeris(sunFile, <span class="hljs-string">"GeneratedEphemeris.txt"</span>, actualEph)
     
     print(<span class="hljs-string">"Finished generating ephemeris"</span>)</code></pre>
 </details>
@@ -1506,7 +1531,7 @@ GeneratedEphemeris.txt (the results of ephemeris generation)</p>
 </details>
 </dd>
 <dt id="odlib.RunCompleteOD"><code class="name flex">
-<span>def <span class="ident">RunCompleteOD</span></span>(<span>iterations:&nbsp;int, inputFile:&nbsp;str, fitsFiles:&nbsp;list, sunFile:&nbsp;str, dates:&nbsp;list, results:&nbsp;list)</span>
+<span>def <span class="ident">RunCompleteOD</span></span>(<span>iterations:&nbsp;int, inputFile:&nbsp;str, fitsFiles:&nbsp;list, sunFile:&nbsp;str, dates:&nbsp;list, results:&nbsp;list, actualEph:&nbsp;str)</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Runs complete orbit determination code. Generates three files:
@@ -1527,6 +1552,8 @@ SoongGeneratedEphemeris.txt (the results from the ephemeris generation)</p>
 <dd>list of dates for orbital elements determination</dd>
 <dt><strong><code>results</code></strong> : <code>list</code></dt>
 <dd>the actual values for orbital elements in the format [a,e,i,o,w,m,T] </dd>
+<dt><strong><code>actualEph</code></strong> : <code>str</code></dt>
+<dd>the file path for the actual ephemeris from JPL Horizons</dd>
 </dl>
 <h2 id="returns">Returns</h2>
 <p>None</p></div>
@@ -1534,7 +1561,7 @@ SoongGeneratedEphemeris.txt (the results from the ephemeris generation)</p>
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">RunCompleteOD</span>(<span class="hljs-params">iterations:int, inputFile:str, fitsFiles:list, sunFile:str, dates:list, results:list</span>):</span>
+<pre><code class="python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">RunCompleteOD</span>(<span class="hljs-params">iterations:int, inputFile:str, fitsFiles:list, sunFile:str, dates:list, results:list, actualEph:str</span>):</span>
     <span class="hljs-string">""" Runs complete orbit determination code. Generates three files:
             SoongODResults.txt (the results of orbital determination),
             SoongMonteCarloOutput.txt (the results from the Monte Carlo simulation),
@@ -1546,6 +1573,7 @@ SoongGeneratedEphemeris.txt (the results from the ephemeris generation)</p>
             sunFile (str): path for file containing times and sun positions for ephemeris generation
             dates (list): list of dates for orbital elements determination
             results (list): the actual values for orbital elements in the format [a,e,i,o,w,m,T] 
+            actualEph (str): the file path for the actual ephemeris from JPL Horizons
         Returns:
             None
     """</span>
@@ -1567,7 +1595,7 @@ SoongGeneratedEphemeris.txt (the results from the ephemeris generation)</p>
     od.monteCarlo(iterations, fitsFiles, <span class="hljs-string">"SoongMonteCarloOutput.txt"</span>, results, selDate=dates)
     
     <span class="hljs-comment"># generate the ephemeris</span>
-    od.genEphemeris(sunFile, <span class="hljs-string">"SoongGeneratedEphemeris.txt"</span>)
+    od.genEphemeris(sunFile, <span class="hljs-string">"SoongGeneratedEphemeris.txt"</span>, actualEph)
     print(<span class="hljs-string">"--- Ephemeris generation completed ---"</span>)</code></pre>
 </details>
 </dd>
@@ -2107,18 +2135,37 @@ SoongGeneratedEphemeris.txt (the results from the ephemeris generation)</p>
   
         <span class="hljs-keyword">return</span> results
 
-    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">exportEphemeris</span>(<span class="hljs-params">self, fileName:str, results:list</span>):</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">exportEphemeris</span>(<span class="hljs-params">self, fileName:str, results:list, actualEph:str</span>):</span>
         <span class="hljs-string">""" Exports ephemeris to a file
             Args:
                 fileName (str): file name for exported ephemeris
                 results (list): all results
+                actualEph (str): file path for actual ephemeris from JPL horizons
             Returns:
                 None
         """</span>
+        actualRA,actualDec=[],[]
+        <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span>(actualEph==<span class="hljs-string">""</span>):
+            data=np.loadtxt(actualEph,dtype=str,delimiter=<span class="hljs-string">","</span>)[<span class="hljs-number">1</span>:,<span class="hljs-number">3</span>:]
+            <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(len(data)):
+                ra=data[i][<span class="hljs-number">0</span>].split()
+                dec=data[i][<span class="hljs-number">1</span>].split()
+                actualRA.append(HMStoDeg(float(ra[<span class="hljs-number">0</span>]),float(ra[<span class="hljs-number">1</span>]),float(ra[<span class="hljs-number">2</span>])))
+                actualDec.append(DMStoDeg(float(dec[<span class="hljs-number">0</span>]),float(dec[<span class="hljs-number">1</span>]),float(dec[<span class="hljs-number">2</span>])))
         <span class="hljs-keyword">with</span> open(fileName, <span class="hljs-string">'w'</span>) <span class="hljs-keyword">as</span> file:
-            file.write((<span class="hljs-string">"Date\tTime\tRA\tDec\n"</span>).expandtabs(<span class="hljs-number">40</span>))
+            file.write((<span class="hljs-string">"Date\tTime\tRA\tDec\tRA error\tDec error\n"</span>).expandtabs(<span class="hljs-number">35</span>))
+            counter=<span class="hljs-number">0</span>
             <span class="hljs-keyword">for</span> date, time, ra, dec <span class="hljs-keyword">in</span> results:
-                file.write((date+<span class="hljs-string">"\t"</span>+time+<span class="hljs-string">"\t"</span>+ra+<span class="hljs-string">"\t"</span>+dec+<span class="hljs-string">"\n"</span>).expandtabs(<span class="hljs-number">40</span>))
+                err=<span class="hljs-string">""</span>
+                <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> (actualEph==<span class="hljs-string">""</span>):
+                    cra=ra.split()
+                    cdec=dec.split()
+                    err=<span class="hljs-string">"\t"</span>
+                    err+=str(error(actualRA[counter],HMStoDeg(float(cra[<span class="hljs-number">0</span>]),float(cra[<span class="hljs-number">1</span>]),float(cra[<span class="hljs-number">2</span>]))))
+                    err+=<span class="hljs-string">"\t"</span>
+                    err+=str(error(actualDec[counter],DMStoDeg(float(cdec[<span class="hljs-number">0</span>]),float(cdec[<span class="hljs-number">1</span>]),float(cdec[<span class="hljs-number">2</span>]))))
+                file.write((date+<span class="hljs-string">"\t"</span>+time+<span class="hljs-string">"\t"</span>+ra+<span class="hljs-string">"\t"</span>+dec+err+<span class="hljs-string">"\n"</span>).expandtabs(<span class="hljs-number">35</span>))
+                counter+=<span class="hljs-number">1</span>
                 
     <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">exportMonteCarlo</span>(<span class="hljs-params">self, fileName:str, vals:list, results</span>):</span>
         <span class="hljs-string">""" Exports Monte Carlo to a file
@@ -2176,7 +2223,7 @@ SoongGeneratedEphemeris.txt (the results from the ephemeris generation)</p>
 <h3>Methods</h3>
 <dl>
 <dt id="odlib.Data.exportEphemeris"><code class="name flex">
-<span>def <span class="ident">exportEphemeris</span></span>(<span>self, fileName:&nbsp;str, results:&nbsp;list)</span>
+<span>def <span class="ident">exportEphemeris</span></span>(<span>self, fileName:&nbsp;str, results:&nbsp;list, actualEph:&nbsp;str)</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Exports ephemeris to a file</p>
@@ -2186,6 +2233,8 @@ SoongGeneratedEphemeris.txt (the results from the ephemeris generation)</p>
 <dd>file name for exported ephemeris</dd>
 <dt><strong><code>results</code></strong> : <code>list</code></dt>
 <dd>all results</dd>
+<dt><strong><code>actualEph</code></strong> : <code>str</code></dt>
+<dd>file path for actual ephemeris from JPL horizons</dd>
 </dl>
 <h2 id="returns">Returns</h2>
 <p>None</p></div>
@@ -2193,18 +2242,37 @@ SoongGeneratedEphemeris.txt (the results from the ephemeris generation)</p>
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">exportEphemeris</span>(<span class="hljs-params">self, fileName:str, results:list</span>):</span>
+<pre><code class="python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">exportEphemeris</span>(<span class="hljs-params">self, fileName:str, results:list, actualEph:str</span>):</span>
     <span class="hljs-string">""" Exports ephemeris to a file
         Args:
             fileName (str): file name for exported ephemeris
             results (list): all results
+            actualEph (str): file path for actual ephemeris from JPL horizons
         Returns:
             None
     """</span>
+    actualRA,actualDec=[],[]
+    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span>(actualEph==<span class="hljs-string">""</span>):
+        data=np.loadtxt(actualEph,dtype=str,delimiter=<span class="hljs-string">","</span>)[<span class="hljs-number">1</span>:,<span class="hljs-number">3</span>:]
+        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(len(data)):
+            ra=data[i][<span class="hljs-number">0</span>].split()
+            dec=data[i][<span class="hljs-number">1</span>].split()
+            actualRA.append(HMStoDeg(float(ra[<span class="hljs-number">0</span>]),float(ra[<span class="hljs-number">1</span>]),float(ra[<span class="hljs-number">2</span>])))
+            actualDec.append(DMStoDeg(float(dec[<span class="hljs-number">0</span>]),float(dec[<span class="hljs-number">1</span>]),float(dec[<span class="hljs-number">2</span>])))
     <span class="hljs-keyword">with</span> open(fileName, <span class="hljs-string">'w'</span>) <span class="hljs-keyword">as</span> file:
-        file.write((<span class="hljs-string">"Date\tTime\tRA\tDec\n"</span>).expandtabs(<span class="hljs-number">40</span>))
+        file.write((<span class="hljs-string">"Date\tTime\tRA\tDec\tRA error\tDec error\n"</span>).expandtabs(<span class="hljs-number">35</span>))
+        counter=<span class="hljs-number">0</span>
         <span class="hljs-keyword">for</span> date, time, ra, dec <span class="hljs-keyword">in</span> results:
-            file.write((date+<span class="hljs-string">"\t"</span>+time+<span class="hljs-string">"\t"</span>+ra+<span class="hljs-string">"\t"</span>+dec+<span class="hljs-string">"\n"</span>).expandtabs(<span class="hljs-number">40</span>))</code></pre>
+            err=<span class="hljs-string">""</span>
+            <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> (actualEph==<span class="hljs-string">""</span>):
+                cra=ra.split()
+                cdec=dec.split()
+                err=<span class="hljs-string">"\t"</span>
+                err+=str(error(actualRA[counter],HMStoDeg(float(cra[<span class="hljs-number">0</span>]),float(cra[<span class="hljs-number">1</span>]),float(cra[<span class="hljs-number">2</span>]))))
+                err+=<span class="hljs-string">"\t"</span>
+                err+=str(error(actualDec[counter],DMStoDeg(float(cdec[<span class="hljs-number">0</span>]),float(cdec[<span class="hljs-number">1</span>]),float(cdec[<span class="hljs-number">2</span>]))))
+            file.write((date+<span class="hljs-string">"\t"</span>+time+<span class="hljs-string">"\t"</span>+ra+<span class="hljs-string">"\t"</span>+dec+err+<span class="hljs-string">"\n"</span>).expandtabs(<span class="hljs-number">35</span>))
+            counter+=<span class="hljs-number">1</span></code></pre>
 </details>
 </dd>
 <dt id="odlib.Data.exportMonteCarlo"><code class="name flex">
@@ -2574,10 +2642,7 @@ into decimals. </p>
 </details>
 </dd>
 <dt id="odlib.Data.printResults"><code class="name flex">
-<span>def <span class="ident">printResults</span></span>(<span>self, 
-fileName:&nbsp;str, pos:&nbsp;list, vel:&nbsp;list, rho:&nbsp;list, 
-a:&nbsp;float, e:&nbsp;float, i:&nbsp;float, o:&nbsp;float, 
-T:&nbsp;float, w:&nbsp;float, date:&nbsp;str, M:&nbsp;float)</span>
+<span>def <span class="ident">printResults</span></span>(<span>self, fileName:&nbsp;str, pos:&nbsp;list, vel:&nbsp;list, rho:&nbsp;list, a:&nbsp;float, e:&nbsp;float, i:&nbsp;float, o:&nbsp;float, T:&nbsp;float, w:&nbsp;float, date:&nbsp;str, M:&nbsp;float)</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Gets the vector from the Earth to the Sun given the date</p>
@@ -3121,11 +3186,12 @@ T:&nbsp;float, w:&nbsp;float, date:&nbsp;str, M:&nbsp;float)</span>
         M=self.od.getTimeMeanAnomaly(time, date)
         self.data.printResults(fileName, self.pos, self.vel/self.toGaussian*(<span class="hljs-number">2</span>*math.pi), self.rho, self.a, self.e, self.i, self.o, self.T, self.w, date, M)
         
-    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">genEphemeris</span>(<span class="hljs-params">self, inputFile:str, outputFile:str</span>):</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">genEphemeris</span>(<span class="hljs-params">self, inputFile:str, outputFile:str, actualEph:str</span>):</span>
         <span class="hljs-string">""" Generates ephemeris for all times in a given sun position file. Exports to an output file
             Args:
                 inputFile (str): input file name
                 outputFile (str): output file name
+                actualEph (str): file with real values from JPL horizons
             Returns:
                 None
         """</span>
@@ -3138,7 +3204,7 @@ T:&nbsp;float, w:&nbsp;float, date:&nbsp;str, M:&nbsp;float)</span>
             dec=sign+str(dec[<span class="hljs-number">0</span>]) + <span class="hljs-string">" "</span> + str(dec[<span class="hljs-number">1</span>]) + <span class="hljs-string">" "</span> + str(dec[<span class="hljs-number">2</span>])
             results.append([date,str(time),ra,dec])
         
-        self.data.exportEphemeris(outputFile, results)
+        self.data.exportEphemeris(outputFile, results, actualEph)
         
     <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">monteCarlo</span>(<span class="hljs-params">self, n:int, files:str, outputFile:str, results:list, selTime:list=[], selDate:list=[]</span>):</span>
         <span class="hljs-string">""" Using uncertainty, runs through Method of Gauss n-times to generate orbital elements. 
@@ -3229,10 +3295,7 @@ T:&nbsp;float, w:&nbsp;float, date:&nbsp;str, M:&nbsp;float)</span>
 <h3>Methods</h3>
 <dl>
 <dt id="odlib.OD.MoG"><code class="name flex">
-<span>def <span class="ident">MoG</span></span>(<span>self, 
-selTime:&nbsp;list&nbsp;=&nbsp;[], selDate:&nbsp;list&nbsp;=&nbsp;[], 
-override:&nbsp;bool&nbsp;=&nbsp;True, ra:&nbsp;list&nbsp;=&nbsp;[], 
-dec:&nbsp;list&nbsp;=&nbsp;[], loaded:&nbsp;bool&nbsp;=&nbsp;False)</span>
+<span>def <span class="ident">MoG</span></span>(<span>self, selTime:&nbsp;list&nbsp;=&nbsp;[], selDate:&nbsp;list&nbsp;=&nbsp;[], override:&nbsp;bool&nbsp;=&nbsp;True, ra:&nbsp;list&nbsp;=&nbsp;[], dec:&nbsp;list&nbsp;=&nbsp;[], loaded:&nbsp;bool&nbsp;=&nbsp;False)</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Performs Method of Gauss calculations to determine orbital elements</p>
@@ -3433,10 +3496,7 @@ dec:&nbsp;list&nbsp;=&nbsp;[], loaded:&nbsp;bool&nbsp;=&nbsp;False)</span>
 </details>
 </dd>
 <dt id="odlib.OD.MoGGenData"><code class="name flex">
-<span>def <span class="ident">MoGGenData</span></span>(<span>self, 
-loaded:&nbsp;bool, selTime:&nbsp;list&nbsp;=&nbsp;[], 
-selDate:&nbsp;list&nbsp;=&nbsp;[], ra:&nbsp;list&nbsp;=&nbsp;[], 
-dec:&nbsp;list&nbsp;=&nbsp;[])</span>
+<span>def <span class="ident">MoGGenData</span></span>(<span>self, loaded:&nbsp;bool, selTime:&nbsp;list&nbsp;=&nbsp;[], selDate:&nbsp;list&nbsp;=&nbsp;[], ra:&nbsp;list&nbsp;=&nbsp;[], dec:&nbsp;list&nbsp;=&nbsp;[])</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Generates the data for Method of Gauss calculations</p>
@@ -3866,7 +3926,7 @@ dec:&nbsp;list&nbsp;=&nbsp;[])</span>
 </details>
 </dd>
 <dt id="odlib.OD.genEphemeris"><code class="name flex">
-<span>def <span class="ident">genEphemeris</span></span>(<span>self, inputFile:&nbsp;str, outputFile:&nbsp;str)</span>
+<span>def <span class="ident">genEphemeris</span></span>(<span>self, inputFile:&nbsp;str, outputFile:&nbsp;str, actualEph:&nbsp;str)</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Generates ephemeris for all times in a given sun position file. Exports to an output file</p>
@@ -3876,6 +3936,8 @@ dec:&nbsp;list&nbsp;=&nbsp;[])</span>
 <dd>input file name</dd>
 <dt><strong><code>outputFile</code></strong> : <code>str</code></dt>
 <dd>output file name</dd>
+<dt><strong><code>actualEph</code></strong> : <code>str</code></dt>
+<dd>file with real values from JPL horizons</dd>
 </dl>
 <h2 id="returns">Returns</h2>
 <p>None</p></div>
@@ -3883,11 +3945,12 @@ dec:&nbsp;list&nbsp;=&nbsp;[])</span>
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">genEphemeris</span>(<span class="hljs-params">self, inputFile:str, outputFile:str</span>):</span>
+<pre><code class="python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">genEphemeris</span>(<span class="hljs-params">self, inputFile:str, outputFile:str, actualEph:str</span>):</span>
     <span class="hljs-string">""" Generates ephemeris for all times in a given sun position file. Exports to an output file
         Args:
             inputFile (str): input file name
             outputFile (str): output file name
+            actualEph (str): file with real values from JPL horizons
         Returns:
             None
     """</span>
@@ -3900,7 +3963,7 @@ dec:&nbsp;list&nbsp;=&nbsp;[])</span>
         dec=sign+str(dec[<span class="hljs-number">0</span>]) + <span class="hljs-string">" "</span> + str(dec[<span class="hljs-number">1</span>]) + <span class="hljs-string">" "</span> + str(dec[<span class="hljs-number">2</span>])
         results.append([date,str(time),ra,dec])
     
-    self.data.exportEphemeris(outputFile, results)</code></pre>
+    self.data.exportEphemeris(outputFile, results, actualEph)</code></pre>
 </details>
 </dd>
 <dt id="odlib.OD.getDCoef"><code class="name flex">
@@ -4023,9 +4086,7 @@ dec:&nbsp;list&nbsp;=&nbsp;[])</span>
 </details>
 </dd>
 <dt id="odlib.OD.getFGVals"><code class="name flex">
-<span>def <span class="ident">getFGVals</span></span>(<span>self, 
-tau1:&nbsp;float, tau3:&nbsp;float, r2mag:&nbsp;float, r2dot:&nbsp;list,
- order1:&nbsp;int, order2:&nbsp;int, r2:&nbsp;list&nbsp;=&nbsp;[])</span>
+<span>def <span class="ident">getFGVals</span></span>(<span>self, tau1:&nbsp;float, tau3:&nbsp;float, r2mag:&nbsp;float, r2dot:&nbsp;list, order1:&nbsp;int, order2:&nbsp;int, r2:&nbsp;list&nbsp;=&nbsp;[])</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Gets all f and g values</p>
@@ -4074,9 +4135,7 @@ tau1:&nbsp;float, tau3:&nbsp;float, r2mag:&nbsp;float, r2dot:&nbsp;list,
 </details>
 </dd>
 <dt id="odlib.OD.monteCarlo"><code class="name flex">
-<span>def <span class="ident">monteCarlo</span></span>(<span>self, 
-n:&nbsp;int, files:&nbsp;str, outputFile:&nbsp;str, results:&nbsp;list, 
-selTime:&nbsp;list&nbsp;=&nbsp;[], selDate:&nbsp;list&nbsp;=&nbsp;[])</span>
+<span>def <span class="ident">monteCarlo</span></span>(<span>self, n:&nbsp;int, files:&nbsp;str, outputFile:&nbsp;str, results:&nbsp;list, selTime:&nbsp;list&nbsp;=&nbsp;[], selDate:&nbsp;list&nbsp;=&nbsp;[])</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Using uncertainty, runs through Method of Gauss n-times to generate orbital elements.
@@ -4943,7 +5002,9 @@ Outputs to file.</p>
     print(<span class="hljs-string">"Longitude of Ascending Node:"</span>,<span class="hljs-string">"\n\tactual:"</span>,results[<span class="hljs-number">3</span>],<span class="hljs-string">"\n\tcalculated:"</span>,self.o, <span class="hljs-string">"\n\terror:"</span>,error(results[<span class="hljs-number">3</span>],self.o))
     <span class="hljs-comment">#print("True anomaly:",results[8],self.v,error(results[8],self.v))</span>
     print(<span class="hljs-string">"Argument of perihelion:"</span>,<span class="hljs-string">"\n\tactual:"</span>,results[<span class="hljs-number">4</span>],<span class="hljs-string">"\n\tcalculated:"</span>,self.w, <span class="hljs-string">"\n\terror:"</span>,error(results[<span class="hljs-number">4</span>],self.w))
-    print(<span class="hljs-string">"Time of Perihelion Passage T:"</span>,<span class="hljs-string">"\n\tactual:"</span>,results[<span class="hljs-number">5</span>],<span class="hljs-string">"\n\tcalculated:"</span>, self.T,<span class="hljs-string">"\n\terror:"</span>,error(results[<span class="hljs-number">5</span>],self.T))</code></pre>
+    print(<span class="hljs-string">"Time of Perihelion Passage T:"</span>,<span class="hljs-string">"\n\tactual:"</span>,results[<span class="hljs-number">5</span>],<span class="hljs-string">"\n\tcalculated:"</span>, self.T,<span class="hljs-string">"\n\terror:"</span>,error(results[<span class="hljs-number">5</span>],self.T))
+    <span class="hljs-comment">#print("Mean Anomaly:",results[7],self.M,error(results[7],self.M))</span>
+    <span class="hljs-comment">#print(od.a, od.e, od.i, od.o, od.v, od.w)</span></code></pre>
 </details>
 </dd>
 </dl>
@@ -4957,87 +5018,87 @@ Outputs to file.</p>
 <ul></ul>
 </div>
 <ul id="index">
-<li><h3><a href="#header-functions">Functions</a></h3>
+<li><h3><a href="http://localhost:8081/odlib/#header-functions">Functions</a></h3>
 <ul class="two-column">
-<li><code><a title="odlib.DECdecimalToDMS" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.DECdecimalToDMS">DECdecimalToDMS</a></code></li>
-<li><code><a title="odlib.DMStoDeg" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.DMStoDeg">DMStoDeg</a></code></li>
-<li><code><a title="odlib.GenerateEphemeris" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.GenerateEphemeris">GenerateEphemeris</a></code></li>
-<li><code><a title="odlib.HMStoDeg" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.HMStoDeg">HMStoDeg</a></code></li>
-<li><code><a title="odlib.RAdecimalToHMS" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.RAdecimalToHMS">RAdecimalToHMS</a></code></li>
-<li><code><a title="odlib.RunCompleteOD" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.RunCompleteOD">RunCompleteOD</a></code></li>
-<li><code><a title="odlib.cross" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.cross">cross</a></code></li>
-<li><code><a title="odlib.decToRad" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.decToRad">decToRad</a></code></li>
-<li><code><a title="odlib.det2x2" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.det2x2">det2x2</a></code></li>
-<li><code><a title="odlib.dot" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.dot">dot</a></code></li>
-<li><code><a title="odlib.error" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.error">error</a></code></li>
-<li><code><a title="odlib.getAngle" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.getAngle">getAngle</a></code></li>
-<li><code><a title="odlib.getMag" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.getMag">getMag</a></code></li>
-<li><code><a title="odlib.newton" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.newton">newton</a></code></li>
-<li><code><a title="odlib.rotX" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.rotX">rotX</a></code></li>
-<li><code><a title="odlib.rotZX" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.rotZX">rotZX</a></code></li>
+<li><code><a title="odlib.DECdecimalToDMS" href="http://localhost:8081/odlib.html#odlib.DECdecimalToDMS">DECdecimalToDMS</a></code></li>
+<li><code><a title="odlib.DMStoDeg" href="http://localhost:8081/odlib.html#odlib.DMStoDeg">DMStoDeg</a></code></li>
+<li><code><a title="odlib.GenerateEphemeris" href="http://localhost:8081/odlib.html#odlib.GenerateEphemeris">GenerateEphemeris</a></code></li>
+<li><code><a title="odlib.HMStoDeg" href="http://localhost:8081/odlib.html#odlib.HMStoDeg">HMStoDeg</a></code></li>
+<li><code><a title="odlib.RAdecimalToHMS" href="http://localhost:8081/odlib.html#odlib.RAdecimalToHMS">RAdecimalToHMS</a></code></li>
+<li><code><a title="odlib.RunCompleteOD" href="http://localhost:8081/odlib.html#odlib.RunCompleteOD">RunCompleteOD</a></code></li>
+<li><code><a title="odlib.cross" href="http://localhost:8081/odlib.html#odlib.cross">cross</a></code></li>
+<li><code><a title="odlib.decToRad" href="http://localhost:8081/odlib.html#odlib.decToRad">decToRad</a></code></li>
+<li><code><a title="odlib.det2x2" href="http://localhost:8081/odlib.html#odlib.det2x2">det2x2</a></code></li>
+<li><code><a title="odlib.dot" href="http://localhost:8081/odlib.html#odlib.dot">dot</a></code></li>
+<li><code><a title="odlib.error" href="http://localhost:8081/odlib.html#odlib.error">error</a></code></li>
+<li><code><a title="odlib.getAngle" href="http://localhost:8081/odlib.html#odlib.getAngle">getAngle</a></code></li>
+<li><code><a title="odlib.getMag" href="http://localhost:8081/odlib.html#odlib.getMag">getMag</a></code></li>
+<li><code><a title="odlib.newton" href="http://localhost:8081/odlib.html#odlib.newton">newton</a></code></li>
+<li><code><a title="odlib.rotX" href="http://localhost:8081/odlib.html#odlib.rotX">rotX</a></code></li>
+<li><code><a title="odlib.rotZX" href="http://localhost:8081/odlib.html#odlib.rotZX">rotZX</a></code></li>
 </ul>
 </li>
-<li><h3><a href="#header-classes">Classes</a></h3>
+<li><h3><a href="http://localhost:8081/odlib/#header-classes">Classes</a></h3>
 <ul>
 <li>
-<h4><code><a title="odlib.Data" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.Data">Data</a></code></h4>
+<h4><code><a title="odlib.Data" href="http://localhost:8081/odlib.html#odlib.Data">Data</a></code></h4>
 <ul class="two-column">
-<li><code><a title="odlib.Data.exportEphemeris" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.Data.exportEphemeris">exportEphemeris</a></code></li>
-<li><code><a title="odlib.Data.exportMonteCarlo" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.Data.exportMonteCarlo">exportMonteCarlo</a></code></li>
-<li><code><a title="odlib.Data.formatTestInputInfo" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.Data.formatTestInputInfo">formatTestInputInfo</a></code></li>
-<li><code><a title="odlib.Data.getAllSunPos" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.Data.getAllSunPos">getAllSunPos</a></code></li>
-<li><code><a title="odlib.Data.getInput" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.Data.getInput">getInput</a></code></li>
-<li><code><a title="odlib.Data.getJDTime" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.Data.getJDTime">getJDTime</a></code></li>
-<li><code><a title="odlib.Data.getRADECInput" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.Data.getRADECInput">getRADECInput</a></code></li>
-<li><code><a title="odlib.Data.getSunInput" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.Data.getSunInput">getSunInput</a></code></li>
-<li><code><a title="odlib.Data.getSunPos" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.Data.getSunPos">getSunPos</a></code></li>
-<li><code><a title="odlib.Data.getTestInput" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.Data.getTestInput">getTestInput</a></code></li>
-<li><code><a title="odlib.Data.printResults" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.Data.printResults">printResults</a></code></li>
+<li><code><a title="odlib.Data.exportEphemeris" href="http://localhost:8081/odlib.html#odlib.Data.exportEphemeris">exportEphemeris</a></code></li>
+<li><code><a title="odlib.Data.exportMonteCarlo" href="http://localhost:8081/odlib.html#odlib.Data.exportMonteCarlo">exportMonteCarlo</a></code></li>
+<li><code><a title="odlib.Data.formatTestInputInfo" href="http://localhost:8081/odlib.html#odlib.Data.formatTestInputInfo">formatTestInputInfo</a></code></li>
+<li><code><a title="odlib.Data.getAllSunPos" href="http://localhost:8081/odlib.html#odlib.Data.getAllSunPos">getAllSunPos</a></code></li>
+<li><code><a title="odlib.Data.getInput" href="http://localhost:8081/odlib.html#odlib.Data.getInput">getInput</a></code></li>
+<li><code><a title="odlib.Data.getJDTime" href="http://localhost:8081/odlib.html#odlib.Data.getJDTime">getJDTime</a></code></li>
+<li><code><a title="odlib.Data.getRADECInput" href="http://localhost:8081/odlib.html#odlib.Data.getRADECInput">getRADECInput</a></code></li>
+<li><code><a title="odlib.Data.getSunInput" href="http://localhost:8081/odlib.html#odlib.Data.getSunInput">getSunInput</a></code></li>
+<li><code><a title="odlib.Data.getSunPos" href="http://localhost:8081/odlib.html#odlib.Data.getSunPos">getSunPos</a></code></li>
+<li><code><a title="odlib.Data.getTestInput" href="http://localhost:8081/odlib.html#odlib.Data.getTestInput">getTestInput</a></code></li>
+<li><code><a title="odlib.Data.printResults" href="http://localhost:8081/odlib.html#odlib.Data.printResults">printResults</a></code></li>
 </ul>
 </li>
 <li>
-<h4><code><a title="odlib.OD" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD">OD</a></code></h4>
+<h4><code><a title="odlib.OD" href="http://localhost:8081/odlib.html#odlib.OD">OD</a></code></h4>
 <ul class="two-column">
-<li><code><a title="odlib.OD.MoG" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.MoG">MoG</a></code></li>
-<li><code><a title="odlib.OD.MoGCalcPos" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.MoGCalcPos">MoGCalcPos</a></code></li>
-<li><code><a title="odlib.OD.MoGCalcRhos" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.MoGCalcRhos">MoGCalcRhos</a></code></li>
-<li><code><a title="odlib.OD.MoGGenData" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.MoGGenData">MoGGenData</a></code></li>
-<li><code><a title="odlib.OD.MoGGetAdjustedTaus" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.MoGGetAdjustedTaus">MoGGetAdjustedTaus</a></code></li>
-<li><code><a title="odlib.OD.MoGGetErr" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.MoGGetErr">MoGGetErr</a></code></li>
-<li><code><a title="odlib.OD.SEL" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.SEL">SEL</a></code></li>
-<li><code><a title="odlib.OD.ephemeris" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.ephemeris">ephemeris</a></code></li>
-<li><code><a title="odlib.OD.exportResults" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.exportResults">exportResults</a></code></li>
-<li><code><a title="odlib.OD.fg" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.fg">fg</a></code></li>
-<li><code><a title="odlib.OD.genElements" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.genElements">genElements</a></code></li>
-<li><code><a title="odlib.OD.genEphemeris" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.genEphemeris">genEphemeris</a></code></li>
-<li><code><a title="odlib.OD.getDCoef" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.getDCoef">getDCoef</a></code></li>
-<li><code><a title="odlib.OD.getElements" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.getElements">getElements</a></code></li>
-<li><code><a title="odlib.OD.getError" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.getError">getError</a></code></li>
-<li><code><a title="odlib.OD.getFGVals" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.getFGVals">getFGVals</a></code></li>
-<li><code><a title="odlib.OD.monteCarlo" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.OD.monteCarlo">monteCarlo</a></code></li>
+<li><code><a title="odlib.OD.MoG" href="http://localhost:8081/odlib.html#odlib.OD.MoG">MoG</a></code></li>
+<li><code><a title="odlib.OD.MoGCalcPos" href="http://localhost:8081/odlib.html#odlib.OD.MoGCalcPos">MoGCalcPos</a></code></li>
+<li><code><a title="odlib.OD.MoGCalcRhos" href="http://localhost:8081/odlib.html#odlib.OD.MoGCalcRhos">MoGCalcRhos</a></code></li>
+<li><code><a title="odlib.OD.MoGGenData" href="http://localhost:8081/odlib.html#odlib.OD.MoGGenData">MoGGenData</a></code></li>
+<li><code><a title="odlib.OD.MoGGetAdjustedTaus" href="http://localhost:8081/odlib.html#odlib.OD.MoGGetAdjustedTaus">MoGGetAdjustedTaus</a></code></li>
+<li><code><a title="odlib.OD.MoGGetErr" href="http://localhost:8081/odlib.html#odlib.OD.MoGGetErr">MoGGetErr</a></code></li>
+<li><code><a title="odlib.OD.SEL" href="http://localhost:8081/odlib.html#odlib.OD.SEL">SEL</a></code></li>
+<li><code><a title="odlib.OD.ephemeris" href="http://localhost:8081/odlib.html#odlib.OD.ephemeris">ephemeris</a></code></li>
+<li><code><a title="odlib.OD.exportResults" href="http://localhost:8081/odlib.html#odlib.OD.exportResults">exportResults</a></code></li>
+<li><code><a title="odlib.OD.fg" href="http://localhost:8081/odlib.html#odlib.OD.fg">fg</a></code></li>
+<li><code><a title="odlib.OD.genElements" href="http://localhost:8081/odlib.html#odlib.OD.genElements">genElements</a></code></li>
+<li><code><a title="odlib.OD.genEphemeris" href="http://localhost:8081/odlib.html#odlib.OD.genEphemeris">genEphemeris</a></code></li>
+<li><code><a title="odlib.OD.getDCoef" href="http://localhost:8081/odlib.html#odlib.OD.getDCoef">getDCoef</a></code></li>
+<li><code><a title="odlib.OD.getElements" href="http://localhost:8081/odlib.html#odlib.OD.getElements">getElements</a></code></li>
+<li><code><a title="odlib.OD.getError" href="http://localhost:8081/odlib.html#odlib.OD.getError">getError</a></code></li>
+<li><code><a title="odlib.OD.getFGVals" href="http://localhost:8081/odlib.html#odlib.OD.getFGVals">getFGVals</a></code></li>
+<li><code><a title="odlib.OD.monteCarlo" href="http://localhost:8081/odlib.html#odlib.OD.monteCarlo">monteCarlo</a></code></li>
 </ul>
 </li>
 <li>
-<h4><code><a title="odlib.ODElements" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements">ODElements</a></code></h4>
+<h4><code><a title="odlib.ODElements" href="http://localhost:8081/odlib.html#odlib.ODElements">ODElements</a></code></h4>
 <ul class="two-column">
-<li><code><a title="odlib.ODElements.getAngMoment" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getAngMoment">getAngMoment</a></code></li>
-<li><code><a title="odlib.ODElements.getAngMomentMag" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getAngMomentMag">getAngMomentMag</a></code></li>
-<li><code><a title="odlib.ODElements.getArgPer" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getArgPer">getArgPer</a></code></li>
-<li><code><a title="odlib.ODElements.getEcc" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getEcc">getEcc</a></code></li>
-<li><code><a title="odlib.ODElements.getElements" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getElements">getElements</a></code></li>
-<li><code><a title="odlib.ODElements.getInc" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getInc">getInc</a></code></li>
-<li><code><a title="odlib.ODElements.getInfo" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getInfo">getInfo</a></code></li>
-<li><code><a title="odlib.ODElements.getLongAsc" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getLongAsc">getLongAsc</a></code></li>
-<li><code><a title="odlib.ODElements.getMeanAnomaly" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getMeanAnomaly">getMeanAnomaly</a></code></li>
-<li><code><a title="odlib.ODElements.getPeriT" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getPeriT">getPeriT</a></code></li>
-<li><code><a title="odlib.ODElements.getPos" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getPos">getPos</a></code></li>
-<li><code><a title="odlib.ODElements.getPosMag" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getPosMag">getPosMag</a></code></li>
-<li><code><a title="odlib.ODElements.getSemiMajor" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getSemiMajor">getSemiMajor</a></code></li>
-<li><code><a title="odlib.ODElements.getTimeMeanAnomaly" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getTimeMeanAnomaly">getTimeMeanAnomaly</a></code></li>
-<li><code><a title="odlib.ODElements.getTrueAnom" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getTrueAnom">getTrueAnom</a></code></li>
-<li><code><a title="odlib.ODElements.getVel" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getVel">getVel</a></code></li>
-<li><code><a title="odlib.ODElements.getVelMag" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.getVelMag">getVelMag</a></code></li>
-<li><code><a title="odlib.ODElements.printError" href="http://alisonsoong.github.io/SoongSSP2022/odlib.html#odlib.ODElements.printError">printError</a></code></li>
+<li><code><a title="odlib.ODElements.getAngMoment" href="http://localhost:8081/odlib.html#odlib.ODElements.getAngMoment">getAngMoment</a></code></li>
+<li><code><a title="odlib.ODElements.getAngMomentMag" href="http://localhost:8081/odlib.html#odlib.ODElements.getAngMomentMag">getAngMomentMag</a></code></li>
+<li><code><a title="odlib.ODElements.getArgPer" href="http://localhost:8081/odlib.html#odlib.ODElements.getArgPer">getArgPer</a></code></li>
+<li><code><a title="odlib.ODElements.getEcc" href="http://localhost:8081/odlib.html#odlib.ODElements.getEcc">getEcc</a></code></li>
+<li><code><a title="odlib.ODElements.getElements" href="http://localhost:8081/odlib.html#odlib.ODElements.getElements">getElements</a></code></li>
+<li><code><a title="odlib.ODElements.getInc" href="http://localhost:8081/odlib.html#odlib.ODElements.getInc">getInc</a></code></li>
+<li><code><a title="odlib.ODElements.getInfo" href="http://localhost:8081/odlib.html#odlib.ODElements.getInfo">getInfo</a></code></li>
+<li><code><a title="odlib.ODElements.getLongAsc" href="http://localhost:8081/odlib.html#odlib.ODElements.getLongAsc">getLongAsc</a></code></li>
+<li><code><a title="odlib.ODElements.getMeanAnomaly" href="http://localhost:8081/odlib.html#odlib.ODElements.getMeanAnomaly">getMeanAnomaly</a></code></li>
+<li><code><a title="odlib.ODElements.getPeriT" href="http://localhost:8081/odlib.html#odlib.ODElements.getPeriT">getPeriT</a></code></li>
+<li><code><a title="odlib.ODElements.getPos" href="http://localhost:8081/odlib.html#odlib.ODElements.getPos">getPos</a></code></li>
+<li><code><a title="odlib.ODElements.getPosMag" href="http://localhost:8081/odlib.html#odlib.ODElements.getPosMag">getPosMag</a></code></li>
+<li><code><a title="odlib.ODElements.getSemiMajor" href="http://localhost:8081/odlib.html#odlib.ODElements.getSemiMajor">getSemiMajor</a></code></li>
+<li><code><a title="odlib.ODElements.getTimeMeanAnomaly" href="http://localhost:8081/odlib.html#odlib.ODElements.getTimeMeanAnomaly">getTimeMeanAnomaly</a></code></li>
+<li><code><a title="odlib.ODElements.getTrueAnom" href="http://localhost:8081/odlib.html#odlib.ODElements.getTrueAnom">getTrueAnom</a></code></li>
+<li><code><a title="odlib.ODElements.getVel" href="http://localhost:8081/odlib.html#odlib.ODElements.getVel">getVel</a></code></li>
+<li><code><a title="odlib.ODElements.getVelMag" href="http://localhost:8081/odlib.html#odlib.ODElements.getVelMag">getVelMag</a></code></li>
+<li><code><a title="odlib.ODElements.printError" href="http://localhost:8081/odlib.html#odlib.ODElements.printError">printError</a></code></li>
 </ul>
 </li>
 </ul>
@@ -5053,8 +5114,8 @@ setInterval(() =>
 fetch(window.location.href, {
 method: "HEAD",
 cache: "no-store",
-headers: {"If-None-Match": "1658383381.3163657"},
+headers: {"If-None-Match": "1659592672.7671854"},
 }).then(response => response.ok && window.location.reload()), 700);
 </script>
 
-</body></html>
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
